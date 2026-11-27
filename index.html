@@ -250,7 +250,7 @@
 
 /* ------------------------------------------------------------------HOME--------------------------------------------------------------*/
     .about-section {
-      min-height: 750px;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -849,6 +849,8 @@
         border-radius: 50%;
         object-fit: cover;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: scale(1.12);
+        clip-path: circle(50% at 50% 50%);
       }
 
       @media screen and (max-width: 768px) {
@@ -1015,8 +1017,15 @@
 
     <div class="nav-links" id="navLinks">
       <a href="#home" class="active">Home</a>
-      <a href="#artworks">Design</a>
-      <a href="#animations">UI/UX</a>
+      <a href="#LG">Logos</a>
+      <a href="#PST">Posters</a>
+      <a href="#BC">Business Cards</a>
+      <a href="#PL">Packaging</a>
+      <a href="#CP">Cover Photos</a>
+      <a href="#LH">Letterheads</a>
+      <a href="#ID">ID</a>
+      <a href="#MN">Menu</a>
+      <!--<a href="#animations">UI/UX</a>-->
       <a href="#artist-profile">Artist Profile</a>
       <a href="#" class="dropdown-trigger" onclick="event.preventDefault()">Collections &#x2335;</a>
     </div>
@@ -1030,13 +1039,13 @@
   <section id="home" class="about-section">
   <div class="about-text">
     <h1><span class="greet">Hi, I'm</span><br>Lemrish John Belarmino</h1>
-    <h2>Illustrator  • Artist</h2>
+    <h2>Illustrator • Graphic Artist</h2>
    <p>
     I’m Lem_milky, a multimedia artist and illustrator based in the Philippines. I create engaging visuals through a blend of graphic design, character illustration, and motion design. I’m passionate about crafting work that not only looks good, but also communicates clearly and resonates with audiences.
   </p>
     <button onclick="location.href='#contact'" class="btn">Ink Me a Message</button>
 </div>
-  <img src="me/me close up.png" alt="Lemrish John Belarmino" class="profile-pic" />
+  <img src="me/me7.png" alt="Lemrish John Belarmino" class="profile-pic" />
   <div class="ink-btn">
     <button onclick="location.href='#contact'">Ink Me a Message</button>
   </div>
@@ -1115,49 +1124,41 @@
       <img src="milkyyyy/ANIM-MILKY.png" alt="Art Placeholder" class="milky">
       <h2>Animations</h2>
     </section>-->
-   <section id="artworks" class="arthead">
+  <section id="LG" class="arthead">
     <section class="artwork-header">
-      <img src="milkyyyy/ART-MILKY.png" alt="Art Placeholder" class="milky">
-      <h2>Design</h2>
+      <!--<img src="milkyyyy/ART-MILKY.png" alt="Art Placeholder" class="milky">-->
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">LOGOS</h2>
    </section>
       <div class="gallery">
-        <img src="Art/logos/1.logo lem.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/1.logo lem.png")'/>
-        <img src="Art/logos/2.logo cake.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/2.logo cake.png")'/>
-        <img src="Art/logos/3.logo cookie.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/3.logo cookie.png")'/>
-        <img src="Art/logos/4.logo pixelwork.jpg" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/4.logo pixelwork.jpg")'/>
+        <img src="DESIGN IMAGE/LG/LG1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG1.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG2.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG2.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG3.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG3.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG4.webp")'/>
       </div>
       <div class="gallery">
-        <img src="Art/logos/5.logo Pworx.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/5.logo Pworx.png")'/>
-        <img src="Art/logos/6.logo Artstack.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/6.logo Artstack.png")'/>
-        <img src="Art/logos/7.logo dreadnox.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/7.logo dreadnox.png")'/>
-        <img src="Art/logos/12.book.png" alt="Gallery Image 1" style="aspect-ratio: 1/1;"  onclick='openSketchLightbox("Art/logos/12.book.png")'/>
+        <img src="DESIGN IMAGE/LG/LG5.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG5.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG16.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG16.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG15.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG15.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG14.webp" alt="Gallery Image 1"   onclick='openSketchLightbox("DESIGN IMAGE/LG/LG14.webp")'/>
       </div>
       <div class="gallery">
-        <img src="Art/logos/8.Alucaria galladore.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/8.Alucaria galladore.png")'/>
-        <img src="Art/logos/9.Alucaria osinu.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/9.Alucaria osinu.png")'/>
-        <img src="Art/logos/10.Alucaria philgako.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/10.Alucaria philgako.png")'/>
-        <img src="Art/logos/11.Alucaria Vilkara.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/11.Alucaria Vilkara.png")'/>
+        <img src="DESIGN IMAGE/LG/LG19.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG19.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG17.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG17.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG11.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG11.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG12.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG12.webp")'/>
       </div>
       <div class="gallery">
-        <img src="Art/logos/13.thumbnail book.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/13.thumbnail book.png")'/>
-        <img src="Art/logos/14.resumeplus.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/14.resumeplus.png")'/>
-        <img src="Art/logos/15.resumeplus logo text.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/15.resumeplus logo text.png")'/>
-        <img src="Art/logos/16.4th anniv.png" alt="Gallery Image 1"  onclick='openSketchLightbox("rt/logos/16.4th anniv.png")'/>
+        <img src="DESIGN IMAGE/LG/LG13.webp " alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG13.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG8.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG8.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG18.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG18.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG6.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG6.webp")'/>
       </div>
       <div class="gallery">
-        <img src="Art/logos/17.jbwf4 logo.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/17.jbwf4 logo.png")'/>
-        <img src="Art/logos/18.jbwf logo.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/18.jbwf logo.png")'/>
-        <img src="Art/logos/20.Alucaria logo.jpg" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/20.Alucaria logo.jpg")'/>
+        <img src="DESIGN IMAGE/LG/LG10.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG10.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG9.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG9.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG7.webp")'/>
+        <img src="DESIGN IMAGE/LG/LG20.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LG/LG20.webp")'/>
       </div>
-      <div class="gallery">
-        <img src="Art/posters/21.DissimilarPoster.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/17.jbwf4 logo.png")'/>
-        <img src="Art/posters/dissimilar trailer.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/20.Alucaria logo.jpg")'/>
-      </div>
-      <div class="gallery">
-        <img src="Art/posters/Alucaria story.jpg" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/18.jbwf logo.png")'/>
-        <img src="Art/posters/TheFinalDissimilar.png" alt="Gallery Image 1"  onclick='openSketchLightbox("Art/logos/18.jbwf logo.png")'/>
-      </div>
-
 
       <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
         <div class="text-lightbox">
@@ -1177,10 +1178,324 @@
           <img id="lightbox-sketch" src="" alt="">
         </div>
       </div>
-      <div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
 
   </section>
-  <section id = "animations" class="arthead" style="display: none;">
+  <section id="PST" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">POSTERS</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/PST/PST1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST1.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST2.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST2.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST3.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST3.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST4.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/PST/PST5.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST5.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST6.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST6.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST7.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST8.webp" alt="Gallery Image 1"   onclick='openSketchLightbox("DESIGN IMAGE/PST/PST8.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/PST/PST9.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST9.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST10.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST10.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST11.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST11.webp")'/>
+        <img src="DESIGN IMAGE/PST/PST12.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PST/PST12.webp")'/>
+      </div>
+      
+
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <section id="BC" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">BUSINESS CARDS</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/BC/BC1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC1.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC2.webp  " alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC2.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC3.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC3.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC4.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/BC/BC5.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC5.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC6.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC6.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC7.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC8.webp" alt="Gallery Image 1"   onclick='openSketchLightbox("DESIGN IMAGE/BC/BC8.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/BC/BC9.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC9.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC10.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC10.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC11.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC11.webp")'/>
+        <img src="DESIGN IMAGE/BC/BC12.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/BC/BC12.webp")'/>
+      </div>
+    
+
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <section id="PL" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">PACKAGING LABEL</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/PL/PL1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PL/PL1.webp")'/>
+        
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/PL/PL2.webp  " alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PL/PL2.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/PL/PL4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PL/PL4.webp")'/>
+      </div>
+      <!--<div class="gallery">
+        <img src="DESIGN IMAGE/PL/PL6.webp  " alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PL/PL6.webp")'/>
+        <img src="DESIGN IMAGE/PL/PL7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PL/PL7.webp")'/>
+        <img src="DESIGN IMAGE/PL/PL8.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/PL/PL8.webp")'/>
+      </div>-->
+      <div class="gallery">
+    <img src="DESIGN IMAGE/PL/PL3.webp" style="height: 300px; width:max-content; max-width: 100%; flex: 0 1 auto; object-fit: contain;"
+         alt="Gallery Image 1"  
+         onclick='openSketchLightbox("DESIGN IMAGE/PL/PL3.webp")'/>
+
+    <img src="DESIGN IMAGE/PL/PL6.webp"
+         style="height: 300px; width: auto; max-width: 30%; flex: 0 1 auto; object-fit: contain;"
+         alt="Gallery Image 1"
+         onclick='openSketchLightbox("DESIGN IMAGE/PL/PL6.webp")'/>
+
+    <img src="DESIGN IMAGE/PL/PL7.webp"
+         style="height: 300px; width: auto; max-width: 30%; flex: 0 1 auto; object-fit: contain;"
+         alt="Gallery Image 1"
+         onclick='openSketchLightbox("DESIGN IMAGE/PL/PL7.webp")'/>
+
+    <img src="DESIGN IMAGE/PL/PL8.webp"
+         style="height: 300px; width: auto; max-width: 30%; flex: 0 1 auto; object-fit: contain;"
+         alt="Gallery Image 1"
+         onclick='openSketchLightbox("DESIGN IMAGE/PL/PL8.webp")'/>
+
+      </div>
+
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <section id="CP" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">COVER PHOTOS</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/CP/CP1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP1.webp")'/>
+        <img src="DESIGN IMAGE/CP/CP9.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP9.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/CP/CP6.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP6.webp")'/>
+        <img src="DESIGN IMAGE/CP/CP10.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP10.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/CP/CP2.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP2.webp")'/>
+        <img src="DESIGN IMAGE/CP/CP7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP7.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/CP/CP5.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP5.webp")'/>
+        <img src="DESIGN IMAGE/CP/CP8.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/CP/CP8.webp")'/>
+      </div>
+      
+      
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <section id="LH" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">LETTERHEADS</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/LH/LH1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH1.webp")'/>
+        <img src="DESIGN IMAGE/LH/LH2.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH2.webp")'/>
+        <img src="DESIGN IMAGE/LH/LH3.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH3.webp")'/>
+        <img src="DESIGN IMAGE/LH/LH4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH4.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/LH/LH5.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH5.webp")'/>
+        <img src="DESIGN IMAGE/LH/LH6.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH6.webp")'/>
+        <img src="DESIGN IMAGE/LH/LH7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/LH/LH7.webp")'/>
+        <img src="DESIGN IMAGE/LH/LH8.webp" alt="Gallery Image 1"   onclick='openSketchLightbox("DESIGN IMAGE/LH/LH8.webp")'/>
+      </div>
+      
+
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <section id="ID" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">ID LAYOUT</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/ID/ID1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID1.webp")'/>
+        <img src="DESIGN IMAGE/ID/ID2.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID2.webp")'/>
+        <img src="DESIGN IMAGE/ID/ID3.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID3.webp")'/>
+        <img src="DESIGN IMAGE/ID/ID4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID4.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/ID/ID5.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID5.webp")'/>
+        <img src="DESIGN IMAGE/ID/ID6.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID6.webp")'/>
+        <img src="DESIGN IMAGE/ID/ID7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/ID/ID7.webp")'/>
+        <img src="DESIGN IMAGE/ID/ID8.webp" alt="Gallery Image 1"   onclick='openSketchLightbox("DESIGN IMAGE/ID/ID8.webp")'/>
+      </div>
+    
+
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <section id="MN" class="arthead">
+    <section class="artwork-header">
+      <h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 1px;">MENUS</h2>
+   </section>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/MN/MN1.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN1.webp")'/>
+        <img src="DESIGN IMAGE/MN/MN2.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN2.webp")'/>
+        <img src="DESIGN IMAGE/MN/MN4.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN4.webp")'/>
+        <img src="DESIGN IMAGE/MN/MN5.webp" alt="Gallery Image 1"   onclick='openSketchLightbox("DESIGN IMAGE/MN/MN5.webp")'/>
+      </div>
+      <div class="gallery">
+        <img src="DESIGN IMAGE/MN/MN6.webp  " alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN6.webp")'/>
+        <img src="DESIGN IMAGE/MN/MN7.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN7.webp")'/>
+         <img src="DESIGN IMAGE/MN/MN9.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN9.webp")'/>
+        <img src="DESIGN IMAGE/MN/MN10.webp" alt="Gallery Image 1"  onclick='openSketchLightbox("DESIGN IMAGE/MN/MN10.webp")'/>
+      </div>
+      <div class="gallery">
+       
+      </div>
+      
+      <div id="image-lightbox" class="lightbox" onclick="closeImageLightbox()">
+        <div class="text-lightbox">
+           <h2 id="image-title"></h2>
+          <p id="image-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-image" src="" alt="">
+        </div>
+      </div>
+      <div id="sketch-lightbox" class="lightbox" onclick="closeSketchLightbox()">
+        <div class="sketch-lightbox">
+           <h2 id="sketch-title"></h2>
+          <p id="sketch-description"></p>
+        </div>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+          <img id="lightbox-sketch" src="" alt="">
+        </div>
+      </div>
+      <!--<div class="more"><div class="morecon"><button onclick="location.href='illustration.html'" class="morebtn">More >></button></div></div>-->
+
+  </section>
+  <!--<section id = "animations" class="arthead" style="display: none;">
     <section class="artwork-header">
       <img src="milkyyyy/ANIM-MILKY.png" alt="Art Placeholder" class="milky">
       <h2>UI/UX</h2>
@@ -1198,7 +1513,7 @@
           <div class="close-btn" onclick="closeVideoLightbox()">&times;</div>
         </div>
       </div>
-      <!-- YouTube Lightbox -->
+      
       <div id="youtube-lightbox" class="youtube-lightbox" onclick="closeYouTubeLightbox()">
         <div class="text-lightbox">
           <h2 id="youtube-title"></h2>
@@ -1211,36 +1526,54 @@
       </div>
 
 
-  </section>
+  </section>-->
   <section id="artist-profile" class="artist-section">
     <div class="artist-container">
       <h2 class="artist-heading">Artist Profile</h2>
       <div class="artist-profile-wrapper">
-        <img src="me/me box.jpg" alt="Lemrish John Belarmino" class="artist-profile-pic">
-      <p class="artist-description">
-       <strong>Lemrish John Belarmino</strong>, also known as <strong>Lem_milky</strong>, is a multimedia artist and illustrator from the Philippines. He creates engaging visuals through character design, graphic layouts, and motion graphics—driven by a bold sense of style and storytelling.
-        <br><br>
-        From early sketchbook storyboards to animation work at <strong>Rocketsheep Studio</strong>, Lemrish has built a portfolio rooted in clarity, emotion, and creative impact. He’s currently focused on crafting designs that resonate across illustration, branding, and motion.
+        <img src="me/me5.png" alt="Lemrish John Belarmino" class="artist-profile-pic">
+
+        <p class="artist-description">
+          <strong>Lemrish John Belarmino</strong>, also known as 
+          <strong>Lem_milky</strong>, is a Graphic Artist, Multimedia Artist, 
+          and Illustrator from the Philippines. With over a year of professional 
+          experience in graphic design, he specializes in creating visual identities, 
+          branding materials, and engaging digital and print designs.
+
+          <br><br>
+
+          A graduate of BS Information Technology majoring in Animation from 
+          <strong>PHINMA – University of Pangasinan</strong>, he gained professional 
+          experience at <strong>ENovae</strong> and hands-on animation experience 
+          at <strong>RocketSheep Studio</strong>. His creative background spans 
+          graphic design, illustration, character design, and 2D animation.
+
+          <br><br>
+
+          Driven by curiosity and a passion for visual storytelling, he continues 
+          to explore new creative approaches, refine his skills, and create meaningful 
+          visuals that combine aesthetics, functionality, and purpose.
+        </p>
       </div>
       <div class="artist-icons">
+        <img src="logos/Photoshop.png" alt="Adobe Photoshop" title="Adobe Photoshop">
         <img src="logos/adobe-animate.png" alt="Adobe Animate" title="Adobe Animate">
-        <img src="logos/ibispaint.jpg" alt="ibisPaint X" title="ibisPaint X">
-        <img src="logos/krita1.png" alt="Krita" title="Krita">
-        <img class="capcut" src="logos/capcut.jpg" alt="CapCut" title="CapCut">
         <img class="figma" src="logos/figma.png" alt="Figma" title="Figma">
+        <img src="logos/krita1.png" alt="Krita" title="Krita">
         <img src="logos/canva.jpg" alt="Canva" title="Canva">
+        <img class="capcut" src="logos/capcut.jpg" alt="CapCut" title="CapCut">
       </div>
     </div>
   </section>
 
   <footer id="contact" class="contact-section">
     <span class="quote">
-    <p>“Let’s do art together”</p>
+    <p>“Let’s design together”</p>
     </span>
   <div class="contact-wrapper">
     <img src="milkyyyy/CONTACT-MILKY1.png" alt="Top Image" class="contact-image">
     <div class="contact-info">
-      <p>📍 Anolid, Mangaldan, Pangasinan, 2432</p>
+      <p>📍 Lapasan, Clarin, Misamis Occidental, 7201</p>
       <p>📞 (+63)‑947‑693‑5005</p>
      <p>📄 <a href="pdfs/Belarmino-LemrishJohn-CV.pdf" download class="download-btn">Download CV</a></p>
       <p>📃 <a href="pdfs/LemrishJohnBelarmino_Resume2025.pdf" download class="download-btn">Download Resume</a></p>
@@ -1261,13 +1594,18 @@
     </div>
   </div>
     <div class="copyright">
-      <p>
-        &copy; 2025 Lem_milky. All rights reserved.
-      </p>
-      <p>
-        Some works are part of internships and school collaborations and are shown for portfolio purposes only. <br> All rights belong to their respective owners.
-      </p>
-    </div>
+  <p>
+    &copy; 2025 Lem_milky. All rights reserved.
+  </p>
+  <p>
+    Most designs featured in this portfolio were created during my employment 
+    at ENovae for its respective clients. Other works include personal, 
+    internship, and academic projects.
+    <br>
+    All works are displayed for portfolio purposes only, with rights 
+    belonging to their respective owners.
+  </p>
+</div>
 
   </footer>
 
@@ -1363,11 +1701,14 @@
 
             navLinks.forEach(link => {
               const href = link.getAttribute("href").replace("#", "");
-              const isCollection = link.classList.contains("collection-link");
+              const isCollection = link.classList.contains("dropdown-trigger");
 
-              if (!isCollection) {
-                link.classList.toggle("active", href === current);
+              if (isCollection) {
+                link.classList.remove("active");
+                return;
               }
+
+              link.classList.toggle("active", href === current);
             });
           });
 
@@ -1460,10 +1801,10 @@
           let frameIndex = 0;
           let interval;
 
-          const wrapper = document.querySelector('.contact-wrapper');
+          const contactSection = document.querySelector('.contact-section');
 
-          if (wrapper && image) {
-            wrapper.addEventListener('mouseenter', () => {
+          if (contactSection && image) {
+            contactSection.addEventListener('mouseenter', () => {
               frameIndex = 0;
               clearInterval(interval);
               interval = setInterval(() => {
@@ -1473,7 +1814,7 @@
               }, 80);
             });
 
-            wrapper.addEventListener('mouseleave', () => {
+            contactSection.addEventListener('mouseleave', () => {
               clearInterval(interval);
               image.src = frames[0]; // Reset to first frame
             });
